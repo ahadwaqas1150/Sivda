@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import { TramSharp } from '@mui/icons-material';
+import { TramSharp, WidthFull } from '@mui/icons-material';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -37,7 +37,7 @@ const handleCloseUserMenu = () => {
 };
 
 return (
-    <AppBar position="static" color="black" >
+    <AppBar position="sticky" sx={{ backgroundColor: '#202020', margin:"0px" ,padding:"0px" }}>
     <Container maxWidth="xl"> {/* Set maxWidth to 'xl' to allow full width */}
         <Toolbar disableGutters>
         
