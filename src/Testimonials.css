@@ -1,0 +1,64 @@
+.testimonials-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+}
+
+.testimonials-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+}
+
+.testimonial-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #2bde73; /* TrustPilot green */
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.testimonial-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial-nav button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #000;
+}
+
+.testimonial-nav button:hover {
+    color: #888;
+}
