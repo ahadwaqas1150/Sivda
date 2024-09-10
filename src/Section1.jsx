@@ -37,7 +37,7 @@ function Section1() {
       {/* Content */}
       <div className="content-container">
         {activeTab === 'recommended' && (
-          <>
+          <div className='recomended-section'>
             {/* First Card */}
             <div className="card-large">
               <div className="card-image email-image"></div>
@@ -61,11 +61,20 @@ function Section1() {
                 <button className="cta-button">View Plans and Pricing</button>
               </div>
             </div>
-          </>
+          </div>
         )}
 
         {/* Placeholder content for other tabs */}
-        {activeTab === 'domains' && <div className="placeholder">Domains Tab Content</div>}
+        {activeTab === 'domains' && (
+          <div className="card-large-1">
+           <div className="card-image email-image-1"></div>
+           <div className="card-content-1">
+             <h3>Professional Domain Rs199 per user/mo</h3>
+             <p>Earn trust from your customers with a domain name that matches your brand.</p>
+             <button className="cta-button">Get Started</button>
+           </div>
+         </div>
+        )}
         {activeTab === 'wordpress-security' && (
           <div className="placeholder">WordPress and Security Tab Content</div>
         )}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Section2.css";
+import marketing  from './assets/marketing.png';
 
 function Section2() {
   return (
@@ -13,7 +14,7 @@ function Section2() {
       <main className="main-content">
         <div className="image-container">
           <img
-            src="https://via.placeholder.com/800x400"
+            src={marketing}
             alt="Website Builder Preview"
           />
         </div>
@@ -44,9 +45,7 @@ function Section2() {
       </main>
 
       {/* Footer Section */}
-      <footer className="footer">
-        <button className="cta-button">Start for Free</button>
-      </footer>
+      
     </div>
   );
 }
