@@ -22,6 +22,20 @@ const testimonials = [
         rating: 5,
         text: "We switched to GoDaddy from our previous provider and we could not be more pleased. They offer a vast product line to help you meet whatever your goals are. The customer service is by far the best. I'm so glad we switched.",
         name: "Brittan Hill"
+    },
+    {
+        id: 4,
+        title: "WE SWITCHED TO GODADDY FROM OUR...",
+        rating: 5,
+        text: "We switched to GoDaddy from our previous provider and we could not be more pleased. They offer a vast product line to help you meet whatever your goals are. The customer service is by far the best. I'm so glad we switched.",
+        name: "Brittan Hill"
+    },
+    {
+        id: 5,
+        title: "WE SWITCHED TO GODADDY FROM OUR...",
+        rating: 5,
+        text: "We switched to GoDaddy from our previous provider and we could not be more pleased. They offer a vast product line to help you meet whatever your goals are. The customer service is by far the best. I'm so glad we switched.",
+        name: "Brittan Hill"
     }
 ];
 

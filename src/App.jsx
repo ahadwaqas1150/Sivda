@@ -6,6 +6,7 @@ import Section2 from "./Section2";
 import Section1 from "./Section1";
 import Testimonials from './Testimonials';
 import Footer  from "./Footer" ;
+import Card from './components/Card';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <Hero/>
       <Section1/>
       <Section2/>
-      <Testimonials/>
+      <Card/>
     </>
   )
 }
