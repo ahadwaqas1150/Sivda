@@ -4,7 +4,7 @@ import marketing  from './assets/marketing.png';
 
 function Section2() {
   return (
-    <div className="container">
+    <div className="container-1">
       {/* Header Section */}
       <header className="header">
         <h1>Grow your brand with Websites + Marketing</h1>

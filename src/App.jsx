@@ -15,9 +15,10 @@ function App() {
       <NavBar/>
       <HeroSection/>
       <Hero/>
-      <Section1/>
       <Section2/>
+      <Section1/>
       <Card/>
+      <Footer/>
     </>
   )
 }
