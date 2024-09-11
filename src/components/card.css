@@ -1,54 +1,68 @@
-.review-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 20px;
-  height: 400px;
-}
-.content {
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+.testimonials-container {
   text-align: center;
-  margin-bottom: 30px;
-  width: 75%;
-}
-.header {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #333;
-}
-
-.img-body img {
-  display: flex;
   margin: 0 auto;
-  height: 40vh;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  padding: 40px 20px;
+  max-width: 1200px;
 }
 
-.img-body {
-  width: 400px;
-  aspect-ratio: 1/1;
-  outline-color: red;
-  display: inline-block;
+.testimonials-container h2 {
+  font-size: 45px;
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.container {
-  margin: 0 auto;
-  width: 100%;
-  height: 80vh;
-  border-color: rgb(95, 10, 10);
-}
-.hello{
-  background-color: #f3e7de;
-  margin: 0 5px;
-  height : 250px;
+.testimonials {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #f9f9f9;
+  padding: 20px;
   border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: left;
+}
+
+.testimonial-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #2bde73; /* TrustPilot green */
+  margin-bottom: 10px;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.testimonial-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.testimonial-nav button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #000;
+}
+
+.testimonial-nav button:hover {
+  color: #888;
 }
