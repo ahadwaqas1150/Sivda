@@ -76,7 +76,24 @@ function Section1() {
          </div>
         )}
         {activeTab === 'wordpress-security' && (
-          <div className="placeholder">WordPress and Security Tab Content</div>
+          <div className="wp">
+          <div className="card-large-3-1">
+          <div className="card-image email-image-3-1"></div>
+          <div className="card-content-3-1">
+            <h3>Wordpress</h3>
+            <p>Experience lightning-fast WordPress hosting tailored to elevate your website's performance and scalability.</p>
+            <button className="cta-button">Get Started</button>
+          </div>
+        </div>
+        <div className="card-large-3">
+        <div className="card-image email-image-3"></div>
+        <div className="card-content-3">
+          <h3>Security</h3>
+          <p>Help keep sensitive data secure on your site and boost search ranking with an SSL Certificate</p>
+          <button className="cta-button">Get Started</button>
+        </div>
+      </div>
+      </div>
         )}
       </div>
     </div>

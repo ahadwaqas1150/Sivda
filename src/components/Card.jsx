@@ -54,12 +54,12 @@ function Card() {
   
   const settings = {
     dots: true,
-    speed: 1000,
+    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 3,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 7000,
     responsive: [
       {
         breakpoint: 1024,
@@ -107,7 +107,7 @@ function Card() {
       <>
       <section className="review-section">
         <div className="content">
-  <h1 className="header">Our Reviews</h1>
+  <h1 className="header">Trusted by 20+ million customers around the world.</h1>
   <div className="container">
     <Slider {...settings}>
       {AfroStyles.map((item) => (

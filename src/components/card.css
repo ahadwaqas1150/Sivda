@@ -13,7 +13,11 @@
   width: 75%;
 }
 .header {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
 }
 
 .img-body img {
@@ -39,7 +43,7 @@
   border-color: rgb(95, 10, 10);
 }
 .hello{
-  background-color: rgb(250, 218, 177);
+  background-color: #f3e7de;
   margin: 0 5px;
   height : 250px;
   display: flex;
@@ -47,9 +51,4 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-}
-.hello :hover{
-  background-color: rgb(250, 218, 177);
-  transform: scale(1.1);
-  transition: 0.5s;
 }

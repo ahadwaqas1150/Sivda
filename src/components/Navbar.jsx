@@ -88,7 +88,7 @@ return (
             >
             {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+                <Typography sx={{ textAlign: 'center', fontFamily: 'roboto', }}>{page}</Typography>
                 </MenuItem>
             ))}
             </Menu>
@@ -102,7 +102,7 @@ return (
             mr: 2,
             display: { xs: 'flex', md: 'none' },
             flexGrow: 1,
-            fontFamily: 'monospace',
+            fontFamily: 'roboto',
             fontWeight: 700,
             letterSpacing: '.3rem',
             color: 'inherit',
